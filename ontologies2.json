@@ -41,6 +41,14 @@
                 "xpath": "//note",
                 "label": "note",
                 "usage": "note"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "Places"
+            },
+            {
+                "xpath": "//persName",
+                "label": "People"
             }
         ],
         "toc": [
