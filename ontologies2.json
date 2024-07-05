@@ -1,0 +1,22 @@
+{
+    "editionTitle": "Ontologies 2",
+    "editionSubtitle": "",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='chapter']",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "indexDocument": "",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Afd85b2ba-a06a-4b4a-a2b5-799ad7b254a7__CWRC.xml"
+    ],
+    "curation": {
+        "markup": [],
+        "toc": [
+            "9d953b35cfd5a482c20ed3c485ad94e7ebe8586e8fb99b0c8c1c43c15933a66e"
+        ]
+    }
+}
