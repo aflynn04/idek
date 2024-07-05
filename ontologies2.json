@@ -4,19 +4,59 @@
     "ignoreNamespace": true,
     "documents": "//div[@type='chapter']",
     "documentContent": "",
-    "documentTitle": "head",
-    "documentAuthor": "",
+    "documentTitle": "head//title",
+    "documentAuthor": "docAuthor[1]",
     "indexDocument": "",
-    "documentImages": "",
-    "documentNotes": "",
-    "documentLinks": "",
+    "documentImages": "//graphic[@url]",
+    "documentNotes": "//note",
+    "documentLinks": "//ref[starts-with(@target,'http')]",
     "inputs": [
-        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Afd85b2ba-a06a-4b4a-a2b5-799ad7b254a7__CWRC.xml"
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Afd85b2ba-a06a-4b4a-a2b5-799ad7b254a7__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A6aae6d64-7e06-41e1-b605-69f252583bba__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Ac42548a8-711f-4193-8767-93a1b2c452a0__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A9b07447e-a12b-49ff-bc85-b8a5187d0929__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Ad6dfeb13-3db7-4a2f-a25a-b4da0208ed9a__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A82042a5e-35bd-4986-8465-429dea5ae64e__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A69474ca2-c235-42c8-8318-8857e12e7bea__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A675010d0-47ca-4544-b813-61393dadac1b__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A5bf4773c-0409-41b9-990b-1eb530e4f31b__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Ad2907843-96e4-429e-ab8a-7174735dc0fb__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Ac5b6b4aa-afcf-408a-a4fc-1200d1d2c42f__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3Acabac19f-cb9d-4252-92df-2640209f98b4__CWRC.xml",
+        "https://raw.githubusercontent.com/LEAF-VRE/DToC-sample-collections/main/Ontologies/islandora%3A34f1ac71-c799-4f24-a9a1-0732e3920e52__CWRC.xml"
     ],
     "curation": {
-        "markup": [],
+        "markup": [
+            {
+                "xpath": "//graphic[@url]",
+                "label": "graphic",
+                "usage": "image"
+            },
+            {
+                "xpath": "//ref[starts-with(@target,'http')]",
+                "label": "link",
+                "usage": "link"
+            },
+            {
+                "xpath": "//note",
+                "label": "note",
+                "usage": "note"
+            }
+        ],
         "toc": [
-            "9d953b35cfd5a482c20ed3c485ad94e7ebe8586e8fb99b0c8c1c43c15933a66e"
+            "9d953b35cfd5a482c20ed3c485ad94e7ebe8586e8fb99b0c8c1c43c15933a66e",
+            "955b7ede1a435d92cd3dbbac1372fb839af850f2f0a3bf8d35b91c80cabbbbcc",
+            "52190e74e7fbdafa5d01d92b29e861a19c4ebbd6375f04255e20e9e4647865c8",
+            "20e7640a69a13054f2748361a1a8ac77f0d59e1f7e3e20b1f14329c29d38ec88",
+            "e645c24863cd487b8851561f0e789cc8434d208d966146040dbb508cc88c64a2",
+            "6316ba91348fae2efcebaf50d7a835e512194dac82c4df350738796c1eeba621",
+            "c0cbc1d5e902774eca042b07c8a8637624ce0a871152456eccddfbf2549fa610",
+            "085daf613219f7ca0ca021feb7f7aed2b1de4f85add431a480f221c5d7f3f052",
+            "3f084eeed0905a33827bae80c91c292c35f1e0a7b53c026f8941644ddc565cdd",
+            "b0c07992e44a4cecbf33b5142fb3553212db3d72c719746b26f8ed2982d2946a",
+            "017a4f22c6097f54e40d9c64b8feff421fcc7dad9718e43c35c52f8eacc85de4",
+            "f3bd460b8eb9578aaa7c6be38a5ceac12fd45cf037d93f2c831fe7c2877b74d7",
+            "ab1e78c1c99c0a2afc4f919bfb65ec884f50e4bb159b2a5a878fad49a7d2de43"
         ]
     }
 }
