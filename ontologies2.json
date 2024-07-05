@@ -28,27 +28,16 @@
     "curation": {
         "markup": [
             {
-                "xpath": "//graphic[@url]",
-                "label": "graphic",
-                "usage": "image"
+                "xpath": "//p",
+                "label": "Paragraph"
             },
             {
-                "xpath": "//ref[starts-with(@target,'http')]",
-                "label": "link",
-                "usage": "link"
+                "xpath": "//quote",
+                "label": "Quote"
             },
             {
-                "xpath": "//note",
-                "label": "note",
-                "usage": "note"
-            },
-            {
-                "xpath": "//placeName",
-                "label": "Places"
-            },
-            {
-                "xpath": "//persName",
-                "label": "People"
+                "xpath": "//div",
+                "label": "div"
             }
         ],
         "toc": [
@@ -61,8 +50,8 @@
             "c0cbc1d5e902774eca042b07c8a8637624ce0a871152456eccddfbf2549fa610",
             "085daf613219f7ca0ca021feb7f7aed2b1de4f85add431a480f221c5d7f3f052",
             "3f084eeed0905a33827bae80c91c292c35f1e0a7b53c026f8941644ddc565cdd",
-            "b0c07992e44a4cecbf33b5142fb3553212db3d72c719746b26f8ed2982d2946a",
             "017a4f22c6097f54e40d9c64b8feff421fcc7dad9718e43c35c52f8eacc85de4",
+            "b0c07992e44a4cecbf33b5142fb3553212db3d72c719746b26f8ed2982d2946a",
             "f3bd460b8eb9578aaa7c6be38a5ceac12fd45cf037d93f2c831fe7c2877b74d7",
             "ab1e78c1c99c0a2afc4f919bfb65ec884f50e4bb159b2a5a878fad49a7d2de43"
         ]
